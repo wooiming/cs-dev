@@ -8,7 +8,7 @@
 			v-model="info.value"
 			:disabled="info.readonly"
 			:options="info.options"
-			>		
+		>		
 		</component>
 	</b-field>
 </template>

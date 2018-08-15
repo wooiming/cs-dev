@@ -11,8 +11,9 @@ window.AppStore = {}; //should use Vuex instead
 
 window.http = axios.create({
 	baseURL: 'http://localhost:8080/my/v3',
+	// baseURL: 'https://dev.api.carsome.com/my/v3',
 	headers:{
-		Accept: 'application/json',
+		Accept: 'application/json', 
 		'Content-Type' : 'application/json'
 	}
 });

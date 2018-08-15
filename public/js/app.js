@@ -19986,6 +19986,7 @@ window.AppStore = {}; //should use Vuex instead
 
 window.http = __WEBPACK_IMPORTED_MODULE_2_axios___default.a.create({
 	baseURL: 'http://localhost:8080/my/v3',
+	// baseURL: 'https://dev.api.carsome.com/my/v3',
 	headers: {
 		Accept: 'application/json',
 		'Content-Type': 'application/json'
